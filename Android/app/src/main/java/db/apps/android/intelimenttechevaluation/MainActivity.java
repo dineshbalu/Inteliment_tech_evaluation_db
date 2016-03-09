@@ -1,5 +1,6 @@
 package db.apps.android.intelimenttechevaluation;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
 
     }
 
@@ -44,5 +43,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v){
 
+        Intent i = null;
+        if( v.getId() == R.id.scenarioBtn1 )
+            i = new Intent( this , Scenario1Activity.class );
+        else
+            i = new Intent( this , Scenario2Activity.class );
+
+        if( i.resolveActivity( getPackageManager() ) != null ){
+            startActivity( i );
+        }
     }
+
 }

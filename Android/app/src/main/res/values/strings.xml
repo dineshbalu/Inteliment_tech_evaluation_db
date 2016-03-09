@@ -3,4 +3,12 @@
     <string name="action_settings">Settings</string>
     <string name="action_scenario_1">Scenario 1</string>
     <string name="action_scenario_2">Scenario 2</string>
+
+    <string-array name="tab_titles">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
 </resources>
