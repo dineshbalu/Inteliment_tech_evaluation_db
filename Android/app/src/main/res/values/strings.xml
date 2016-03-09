@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">IntelimentTechEvaluation</string>
+    <string name="app_name">Inteliment India Tech Evaluation</string>
     <string name="action_settings">Settings</string>
+    <string name="action_scenario_1">Scenario 1</string>
+    <string name="action_scenario_2">Scenario 2</string>
 </resources>
