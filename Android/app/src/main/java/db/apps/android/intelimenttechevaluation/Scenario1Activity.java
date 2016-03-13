@@ -1,5 +1,6 @@
 package db.apps.android.intelimenttechevaluation;
 
+import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -9,6 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -78,5 +80,16 @@ public class Scenario1Activity extends AppCompatActivity implements TabLayout.On
     @Override
     public void onClick(String message) {
         Toast.makeText( this , message , Toast.LENGTH_SHORT ).show();
+    }
+
+    public void onColorClicked( View v ){
+
+        String tag = (String)v.getTag();
+
+        int color = Color.parseColor(tag);
+
+        View colorLayout = findViewById(R.id.colorLayout);
+        colorLayout.setBackgroundColor( color );
+
     }
 }

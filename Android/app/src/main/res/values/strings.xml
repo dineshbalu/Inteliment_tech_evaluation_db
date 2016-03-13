@@ -3,6 +3,9 @@
     <string name="action_settings">Settings</string>
     <string name="action_scenario_1">Scenario 1</string>
     <string name="action_scenario_2">Scenario 2</string>
+    <string name="redBtn">Red</string>
+    <string name="greenBtn">Green</string>
+    <string name="blueBtn">Blue</string>
 
     <string-array name="tab_titles">
         <item>Item 1</item>
