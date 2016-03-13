@@ -23,3 +23,6 @@ Technical Evaluation by Inteliment India for the position of Android Developer
         - Point 4: From point 1, click any item out of 5 and that item name should be populated in Point 4 as TextView.
 
 #### Day 2
+  - ***13/03/2015 01:43*** - ***13/03/2015 02:27***
+    - Scenario 1
+        - Point 2: Make a Viewpager of four fragments. Each fragment should be clickable and should display Fragment Number in Toast
