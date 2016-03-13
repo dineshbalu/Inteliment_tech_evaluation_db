@@ -28,6 +28,6 @@ Technical Evaluation by Inteliment India for the position of Android Developer
         - Point 2: Make a Viewpager of four fragments. Each fragment should be clickable and should display Fragment Number in Toast
         - Point 3: Display three TextViews in alignment as shown in above image
 
-  - ***13/03/2015 01:43*** - ***13/03/2015 02:27***
+  - ***13/03/2015 06:45*** - ***13/03/2015 07:24***
     - Scenario 1
         - Point 5: Make three buttons of same size. For example, give button name, redBtn, blueBtn and greenBtn. On clicking any button, the background of Point 5 space should change as per button color name, which was clicked.
