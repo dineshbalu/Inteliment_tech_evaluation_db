@@ -31,3 +31,8 @@ Technical Evaluation by Inteliment India for the position of Android Developer
   - ***13/03/2015 06:45*** - ***13/03/2015 07:24***
     - Scenario 1
         - Point 5: Make three buttons of same size. For example, give button name, redBtn, blueBtn and greenBtn. On clicking any button, the background of Point 5 space should change as per button color name, which was clicked.
+
+  - ***13/03/2015 08:16*** - ***13/03/2015 09:22***
+    - Scenario 2
+        - Point 1: Create a dropdown/spinner. Name should be fetched from JSON
+        - Point 2: From JSON you will find transport information. Display transport info of relevant item selected in Spinner

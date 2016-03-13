@@ -6,6 +6,10 @@
     <string name="redBtn">Red</string>
     <string name="greenBtn">Green</string>
     <string name="blueBtn">Blue</string>
+    <string name="navBtn">Navigate</string>
+    <string name="title_mode_transport">Mode Of Transport</string>
+    <string name="format_mode_car">Car : %1$s</string>
+    <string name="format_mode_train">Train : %1$s</string>
 
     <string-array name="tab_titles">
         <item>Item 1</item>
